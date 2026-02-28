@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "dpax": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "wooden_hoe"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "vpax:wooden_tool_trigger_1"
+    }
+  }
+  

@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": "Charm of Mining Reach III",
+                "tooltip_style": "vpax:custom",
+                "rarity": "epic",
+                "item_model": "vpax:mining_charm_3",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:block_interaction_range",
+                    "id": "oiuh0iq3h3324wef",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  }
+                ],
+                "!minecraft:consumable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/reward_ominous"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "sms",
+    "sss"
+  ],
+  "key": {
+    "m": "#minecraft:materials",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:painting",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:painting",
+        "variant":"vpax:paxel_painting"
+      }
+    }
+  }
+}

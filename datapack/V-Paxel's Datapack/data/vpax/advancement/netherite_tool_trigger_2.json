@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "dpax": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "netherite_shovel"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "vpax:netherite_tool_trigger_2"
+    }
+  }
+  

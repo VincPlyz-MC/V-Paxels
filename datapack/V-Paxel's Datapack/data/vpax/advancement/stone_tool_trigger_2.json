@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "dpax": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "stone_shovel"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "vpax:stone_tool_trigger_2"
+    }
+  }
+  

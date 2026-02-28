@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "vstuff",
+  "pattern": [
+    "DLO",
+    "BS ",
+    " S "
+  ],
+  "key": {
+    "D": "minecraft:netherite_pickaxe",
+    "B": "minecraft:netherite_axe",
+    "L": "minecraft:netherite_shovel",
+    "O": "minecraft:netherite_hoe",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:netherite_hoe",
+    "components": {
+      "minecraft:item_model": "vpax:nrite_paxel_h",
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "speed": 9,
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:mineable/shovel",
+            "speed": 9,
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 9,
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:mineable/hoe",
+            "speed": 9,
+            "correct_for_drops": false
+          }
+        ]
+      },
+      "minecraft:max_damage": 4100,
+      "minecraft:consumable": {
+        "consume_seconds": 2147483647
+      },
+      "minecraft:tooltip_style": "vpax:paxel/nrite",
+      "minecraft:item_name": "Netherite Paxel"
+    }
+  }
+}

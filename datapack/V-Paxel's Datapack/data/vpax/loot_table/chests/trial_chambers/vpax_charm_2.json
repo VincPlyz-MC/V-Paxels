@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": "Charm of Mining Reach II",
+                "tooltip_style": "vpax:custom",
+                "rarity": "rare",
+                "item_model": "vpax:mining_charm_2",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:block_interaction_range",
+                    "id": "6883erge23423weg45",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  }
+                ],
+                "!minecraft:consumable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/reward"
+}

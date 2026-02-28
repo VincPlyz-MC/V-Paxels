@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "vstuff",
+  "pattern": [
+    "DLO",
+    "BS ",
+    " S "
+  ],
+  "key": {
+    "D": "minecraft:diamond_pickaxe",
+    "B": "minecraft:diamond_axe",
+    "L": "minecraft:diamond_shovel",
+    "O": "minecraft:diamond_hoe",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:diamond_hoe",
+    "components": {
+      "minecraft:item_model": "vpax:dia_paxel_h",
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "speed": 8,
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:mineable/shovel",
+            "speed": 8,
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 8,
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:mineable/hoe",
+            "speed": 8,
+            "correct_for_drops": false
+          }
+        ]
+      },
+      "minecraft:max_damage": 3000,
+      "minecraft:consumable": {
+        "consume_seconds": 2147483647
+      },
+      "minecraft:tooltip_style": "vpax:paxel/dia",
+      "minecraft:item_name": "Diamond Paxel"
+    }
+  }
+}

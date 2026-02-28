@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "dpax": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "stone_hoe"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "vpax:stone_tool_trigger_1"
+    }
+  }
+  

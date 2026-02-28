@@ -1,0 +1,13 @@
+{
+    "asset_id": "vpax:paxel_painting",
+    "author": {
+      "color": "gray",
+      "translate": "Vincplyz"
+    },
+    "height": 5,
+    "title": {
+      "color": "yellow",
+      "translate": "The Paxels"
+    },
+    "width": 5
+  }
