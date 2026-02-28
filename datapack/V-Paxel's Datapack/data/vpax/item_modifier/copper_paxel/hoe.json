@@ -1,0 +1,35 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:copper_hoe"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "vpax:copper_paxel_h",
+      "minecraft:item_name": "Copper Paxel",
+      "minecraft:custom_data": {
+        "paxel": true,
+        "copper_paxel": true,
+        "copper_paxel_type": "hoe"
+      },
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "text": "-> Tilling",
+          "color": "#07ca52"
+        },
+        {
+          "text": "- Pathing",
+          "color": "#bf0808"
+        },
+        {
+          "text": "- Axing",
+          "color": "#bf0808"
+        }
+      ]
+    }
+  }
+]

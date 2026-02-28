@@ -10,7 +10,10 @@ execute if items entity @s weapon.mainhand #minecraft:paxels[custom_data~{wooden
 
   # stone Paxel
 execute if items entity @s weapon.mainhand #minecraft:paxels[custom_data~{stone_paxel:true}] run function vpax:paxel_trigger/stone_paxel
-
+  
+   # copper Paxel
+execute if items entity @s weapon.mainhand #minecraft:paxels[custom_data~{copper_paxel:true}] run function vpax:paxel_trigger/copper_paxel
+ 
    # iron Paxel
 execute if items entity @s weapon.mainhand #minecraft:paxels[custom_data~{iron_paxel:true}] run function vpax:paxel_trigger/iron_paxel
 
