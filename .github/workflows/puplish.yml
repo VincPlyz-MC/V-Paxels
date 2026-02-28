@@ -1,4 +1,5 @@
-name: Publish Resource Pack
+
+name: Publish Datapack and Resource Pack
 
 on:
   push:
@@ -8,46 +9,52 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-
-      - name: Create Resource Pack Zip
+      - name: Create Zips
         run: |
-          zip -r "§6Translucent Lanterns.zip" . -x "*.git*" ".github/*"
+          # 1. Resource Pack erstellen
+          cd "resourcepack/V-Paxels Resourcepack" && zip -r "../../V-Paxels-ResourcePack.zip" . && cd ../..
+          
+          # 2. Datapack erstellen
+          cd "datapack/V-Paxel's Datapack" && zip -r "../../V-Paxels-Datapack.zip" . && cd ../..
 
       - name: Publish to Modrinth
         uses: cloudnode-pro/modrinth-publish@v2.3.2
         with:
           # Modrinth Token
           token: ${{ secrets.MODRINTH_TOKEN }}
-          
+
           # Project ID
-          project: JPHxoady
-          
+          project: 4Xz13iKF
+
           # The version number (from tag, e.g., v1.1)
           version: "${{ github.ref_name }}"
-          
+
           # The title of the version on Modrinth
-          name: "Translucent Lanterns ${{ github.ref_name }}"
-
-          # 'release', 'beta', or 'alpha'
-          channel: release
-
-          # List of files here
-          files: |-
-            §6Translucent Lanterns.zip
+          name: "V-Paxels ${{ github.ref_name }}"
           
-          # Loaders (e.g. fabric, neoforge, minecraft (resourcepacks), datapack (datapacks))
+          # 'release', 'beta', or 'alpha'
+          channel: alpha
+          
+          # List both files
+          files: |-
+            V-Paxels-Datapack.zip
+            V-Paxels-ResourcePack.zip
+          
+          # Define which file is which
+          # Format: filename=type
+          file-types: |-
+            V-Paxels-ResourcePack.zip=required-resource-pack
+          
+          # Sets the Datapack as the main download button
+          primary-file: "V-Paxels-Datapack.zip"
+
           loaders: |-
             minecraft
-          
-          # Game Version (e.g. 1.21.11, 26.1-snapshot-1)
+            datapack
+            
           game-versions: |-
-            26.1-snapshot-7
-            26.1-snapshot-8
-            26.1-snapshot-9
             26.1-snapshot-10
