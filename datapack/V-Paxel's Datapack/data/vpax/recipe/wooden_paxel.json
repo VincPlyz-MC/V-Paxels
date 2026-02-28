@@ -17,9 +17,7 @@
   "result": {
     "id": "minecraft:wooden_hoe",
     "components": {
-      "item_model": "vpax:wooden_paxel_h",
-      "tooltip_style": "vpax:paxel/wood",
-      "item_name": "Wooden Paxel",
+      "minecraft:item_model": "vpax:wooden_paxel_h",
       "minecraft:tool": {
         "rules": [
           {
@@ -47,7 +45,31 @@
       "minecraft:max_damage": 120,
       "minecraft:consumable": {
         "consume_seconds": 2147483647
-      }
+      },
+      "minecraft:tooltip_style": "vpax:paxel/wood",
+      "minecraft:item_name": "Wooden Paxel",
+      "minecraft:custom_data": {
+        "paxel": true,
+        "wooden_paxel": true,
+        "wooden_paxel_type": "hoe"
+      },
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "text": "-> Tilling",
+          "color": "#07ca52"
+        },
+        {
+          "text": "- Pathing",
+          "color": "#bf0808"
+        },
+        {
+          "text": "- Axing",
+          "color": "#bf0808"
+        }
+      ]
     }
   }
 }

@@ -1,0 +1,35 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:netherite_shovel"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "vpax:nrite_paxel_s",
+      "minecraft:item_name": "Netherite Paxel",
+      "minecraft:custom_data": {
+        "paxel": true,
+        "netherite_paxel": true,
+        "netherite_paxel_type": "shovel"
+      },
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "text": "- Tilling",
+          "color": "#bf0808"
+        },
+        {
+          "text": "-> Pathing",
+          "color": "#07ca52"
+        },
+        {
+          "text": "- Axing",
+          "color": "#bf0808"
+        }
+      ]
+    }
+  }
+]

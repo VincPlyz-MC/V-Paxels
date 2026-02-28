@@ -1,0 +1,35 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:netherite_axe"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "vpax:nrite_paxel_h",
+      "minecraft:item_name": "Netherite Paxel",
+      "minecraft:custom_data": {
+        "paxel": true,
+        "netherite_paxel": true,
+        "netherite_paxel_type": "axe"
+      },
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "text": "- Tilling",
+          "color": "#bf0808"
+        },
+        {
+          "text": "- Pathing",
+          "color": "#bf0808"
+        },
+        {
+          "text": "-> Axing",
+          "color": "#07ca52"
+        }
+      ]
+    }
+  }
+]

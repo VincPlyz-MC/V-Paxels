@@ -15,7 +15,25 @@
       "minecraft:entity_data": {
         "id": "minecraft:painting",
         "variant":"vpax:paxel_painting"
-      }
+      },
+      "minecraft:lore": [
+        {
+          "text": "+--MODE--+",
+          "color": "#5d5d5d"
+        },
+        {
+          "text": "-> Tilling",
+          "color": "#07ca52"
+        },
+        {
+          "text": "- Pathing",
+          "color": "#bf0808"
+        },
+        {
+          "text": "- Axing",
+          "color": "#bf0808"
+        }
+      ]
     }
   }
 }

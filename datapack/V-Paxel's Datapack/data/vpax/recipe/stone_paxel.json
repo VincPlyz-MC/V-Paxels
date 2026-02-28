@@ -8,18 +8,16 @@
     " S "
   ],
   "key": {
-    "D":"minecraft:stone_pickaxe",
-    "B":"minecraft:stone_axe",
-    "L":"minecraft:stone_shovel",
-    "O":"minecraft:stone_hoe",
-    "S":"minecraft:stick"
+    "D": "minecraft:stone_pickaxe",
+    "B": "minecraft:stone_axe",
+    "L": "minecraft:stone_shovel",
+    "O": "minecraft:stone_hoe",
+    "S": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:stone_hoe",
     "components": {
-      "item_model": "vpax:stone_paxel_h",
-      "tooltip_style": "vpax:paxel/stone",
-      "item_name": "Stone Paxel",
+      "minecraft:item_model": "vpax:stone_paxel_h",
       "minecraft:tool": {
         "rules": [
           {
@@ -47,7 +45,31 @@
       "minecraft:max_damage": 260,
       "minecraft:consumable": {
         "consume_seconds": 2147483647
-      }
+      },
+      "minecraft:tooltip_style": "vpax:paxel/stone",
+      "minecraft:item_name": "Stone Paxel",
+      "minecraft:custom_data": {
+        "paxel": true,
+        "stone_paxel": true,
+        "stone_paxel_type": "hoe"
+      },
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "text": "-> Tilling",
+          "color": "#07ca52"
+        },
+        {
+          "text": "- Pathing",
+          "color": "#bf0808"
+        },
+        {
+          "text": "- Axing",
+          "color": "#bf0808"
+        }
+      ]
     }
   }
 }

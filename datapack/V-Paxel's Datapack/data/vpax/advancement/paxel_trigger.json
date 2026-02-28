@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "dpax": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "input": {
+              "sprint": true
+            }
+          },
+          "periodic_tick": 3
+        },
+        "item": {
+          "items": "#minecraft:paxels",
+          "predicates": {
+            "minecraft:custom_data": {
+              "paxel": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vpax:paxel_trigger"
+  }
+}

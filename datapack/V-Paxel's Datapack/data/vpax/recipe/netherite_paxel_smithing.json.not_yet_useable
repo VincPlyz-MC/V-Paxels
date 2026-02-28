@@ -1,57 +1,45 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "vstuff",
-  "pattern": [
-    "DLO",
-    "BS ",
-    " S "
-  ],
-  "key": {
-    "D": "minecraft:diamond_pickaxe",
-    "B": "minecraft:diamond_axe",
-    "L": "minecraft:diamond_shovel",
-    "O": "minecraft:diamond_hoe",
-    "S": "minecraft:stick"
-  },
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "#minecraft:diamond_tools",
   "result": {
-    "id": "minecraft:diamond_hoe",
+    "id": "minecraft:netherite_hoe",
     "components": {
-      "minecraft:item_model": "vpax:dia_paxel_h",
+      "minecraft:item_model": "vpax:nrite_paxel_h",
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "#minecraft:mineable/pickaxe",
-            "speed": 8,
+            "speed": 9,
             "correct_for_drops": true
           },
           {
             "blocks": "#minecraft:mineable/shovel",
-            "speed": 8,
+            "speed": 9,
             "correct_for_drops": false
           },
           {
             "blocks": "#minecraft:mineable/axe",
-            "speed": 8,
+            "speed": 9,
             "correct_for_drops": false
           },
           {
             "blocks": "#minecraft:mineable/hoe",
-            "speed": 8,
+            "speed": 9,
             "correct_for_drops": false
           }
         ]
       },
-      "minecraft:max_damage": 3000,
+      "minecraft:max_damage": 4100,
       "minecraft:consumable": {
         "consume_seconds": 2147483647
       },
-      "minecraft:tooltip_style": "vpax:paxel/dia",
-      "minecraft:item_name": "Diamond Paxel",
+      "minecraft:tooltip_style": "vpax:paxel/nrite",
+      "minecraft:item_name": "Netherite Paxel",
       "minecraft:custom_data": {
         "paxel": true,
-        "diamond_paxel": true,
-        "diamond_paxel_type": "hoe"
+        "netherite_paxel": true,
+        "netherite_paxel_type": "hoe"
       },
       "minecraft:lore": [
         {
@@ -71,5 +59,6 @@
         }
       ]
     }
-  }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
 }

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "V-Paxel Settings",
+  "external_title": "V-Paxel Settings",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "WIP! for now Dialogs are useless for uses like this unless your an Operator / Have Cheats activated"
+  },
+  "inputs": [
+    {
+      "type": "minecraft:boolean",
+      "key": "switch_noti",
+      "label": "V-Paxel Switch Notification",
+      "initial": true,
+      "on_true": "add",
+      "on_false": "remove"
+    }
+  ],
+  "exit_action": {
+    "label": "Exit"
+  },
+  "actions": [
+    {
+      "label": "Submit",
+      "tooltip": {
+        "text": "WIP! for now Dialogs are useless for uses like this unless your an Operator / Have Cheats activated"
+      },
+      "action": {
+        "type": "dynamic/run_command",
+        "template": "/tag @s $(switch_noti) vpax_switch_noti_off"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:diamond_shovel"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "vpax:dia_paxel_s",
+      "minecraft:item_name": "Diamond Paxel",
+      "minecraft:custom_data": {
+        "paxel": true,
+        "diamond_paxel": true,
+        "diamond_paxel_type": "shovel"
+      },
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "text": "- Tilling",
+          "color": "#bf0808"
+        },
+        {
+          "text": "-> Pathing",
+          "color": "#07ca52"
+        },
+        {
+          "text": "- Axing",
+          "color": "#bf0808"
+        }
+      ]
+    }
+  }
+]

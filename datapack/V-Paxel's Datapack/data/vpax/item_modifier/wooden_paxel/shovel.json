@@ -1,0 +1,35 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:wooden_shovel"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "vpax:wooden_paxel_s",
+      "minecraft:item_name": "Wooden Paxel",
+      "minecraft:custom_data": {
+        "paxel": true,
+        "wooden_paxel": true,
+        "wooden_paxel_type": "shovel"
+      },
+      "minecraft:lore": [
+        {
+          "text": " "
+        },
+        {
+          "text": "- Tilling",
+          "color": "#bf0808"
+        },
+        {
+          "text": "-> Pathing",
+          "color": "#07ca52"
+        },
+        {
+          "text": "- Axing",
+          "color": "#bf0808"
+        }
+      ]
+    }
+  }
+]
