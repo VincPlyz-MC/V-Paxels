@@ -1,51 +1,73 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:wooden_axe",
-            "weight": 100
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:wooden_pickaxe"
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:wooden_hoe"
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:wooden_shovel"
-          }
-        ]
-      },
-      {
-        "rolls": 2,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stick"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "vpax:wooden_paxel_h",
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "#minecraft:mineable/pickaxe",
+                      "speed": 2,
+                      "correct_for_drops": true
+                    },
+                    {
+                      "blocks": "#minecraft:mineable/shovel",
+                      "speed": 2,
+                      "correct_for_drops": false
+                    },
+                    {
+                      "blocks": "#minecraft:mineable/axe",
+                      "speed": 2,
+                      "correct_for_drops": false
+                    },
+                    {
+                      "blocks": "#minecraft:mineable/hoe",
+                      "speed": 2,
+                      "correct_for_drops": false
+                    }
+                  ]
+                },
+                "minecraft:max_damage": 120,
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647
+                },
+                "minecraft:tooltip_style": "vpax:paxel/wood",
+                "minecraft:item_name": "Wooden Paxel",
+                "minecraft:custom_data": {
+                  "paxel": 1,
+                  "wooden_paxel": 1,
+                  "wooden_paxel_type": "hoe"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "-> Tilling",
+                    "color": "#07ca52"
+                  },
+                  {
+                    "text": "- Pathing",
+                    "color": "#bf0808"
+                  },
+                  {
+                    "text": "- Axing",
+                    "color": "#bf0808"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
