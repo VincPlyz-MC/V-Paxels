@@ -10,9 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_model": "vpax:iron_paxel_h",
-                "tooltip_style": "vpax:paxel/iron",
-                "item_name": "Iron Paxel",
+                "minecraft:item_model": "vpax:iron_paxel_h",
                 "minecraft:tool": {
                   "rules": [
                     {
@@ -40,7 +38,31 @@
                 "minecraft:max_damage": 500,
                 "minecraft:consumable": {
                   "consume_seconds": 2147483647
-                }
+                },
+                "minecraft:tooltip_style": "vpax:paxel/iron",
+                "minecraft:item_name": "Iron Paxel",
+                "minecraft:custom_data": {
+                  "paxel": 1,
+                  "iron_paxel": 1,
+                  "iron_paxel_type": "hoe"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "-> Tilling",
+                    "color": "#07ca52"
+                  },
+                  {
+                    "text": "- Pathing",
+                    "color": "#bf0808"
+                  },
+                  {
+                    "text": "- Axing",
+                    "color": "#bf0808"
+                  }
+                ]
               }
             }
           ]

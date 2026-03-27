@@ -37,7 +37,7 @@ jobs:
           name: "V-Paxels ${{ github.ref_name }}"
           
           # 'release', 'beta', or 'alpha'
-          channel: alpha
+          channel: release
           
           # List both files
           files: |-
@@ -57,4 +57,4 @@ jobs:
             datapack
             
           game-versions: |-
-            26.1-snapshot-10
+            26.1
