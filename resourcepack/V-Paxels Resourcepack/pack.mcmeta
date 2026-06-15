@@ -1,9 +1,9 @@
 {
   "pack": {
     "description": {
-      "text": "§3by VincPlyz §f- §8v2.1"
+      "text": "§3by VincPlyz §f- §8v2.2"
     },
-    "min_format": 84,
-    "max_format": 84
+    "min_format": 88,
+    "max_format": 88
   }
 }

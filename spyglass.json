@@ -1,5 +1,11 @@
 {
    "env": {
-      "gameVersion": "1.21.11"
+      "gameVersion": "26.2",
+      "dependencies": [
+      "@vanilla-datapack",
+      "@vanilla-resourcepack",
+      "@vanilla-mcdoc",
+      "C:/Minecraft Resources/Dev/V-Paxels"
+    ]
    }
 }

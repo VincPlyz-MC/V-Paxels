@@ -4,13 +4,12 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "periodic_tick": 3,
+          "minecraft:type_specific/player": {
             "input": {
               "sprint": true
             }
-          },
-          "periodic_tick": 3
+          }
         },
         "item": {
           "items": "#minecraft:paxels",

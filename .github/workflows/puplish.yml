@@ -57,4 +57,4 @@ jobs:
             datapack
             
           game-versions: |-
-            26.1
+            26.2
