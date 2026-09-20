@@ -14,7 +14,7 @@
     "S": "minecraft:stick"
   },
   "result": {
-    "id": "minecraft:diamond_hoe",
+    "id": "minecraft:diamond_pickaxe",
     "components": {
       "minecraft:item_model": "vpax:dia_paxel",
       "minecraft:tool": {
@@ -47,8 +47,7 @@
       "minecraft:item_name": "Diamond Paxel",
       "minecraft:custom_data": {
         "paxel": true,
-        "diamond_paxel": true,
-        "diamond_paxel_type": "hoe"
+        "diamond_paxel": true
       }
     }
   }

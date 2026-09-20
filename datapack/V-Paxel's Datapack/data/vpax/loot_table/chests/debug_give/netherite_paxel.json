@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_hoe",
+          "name": "minecraft:netherite_pickaxe",
           "modifier": {
             "type": "minecraft:set_components",
             "components": {
@@ -39,8 +39,7 @@
               "minecraft:item_name": "Netherite Paxel",
               "minecraft:custom_data": {
                 "paxel": 1,
-                "netherite_paxel": 1,
-                "netherite_paxel_type": "hoe"
+                "netherite_paxel": 1
               },
               "minecraft:block_transformer": "vpax:axe_shovel"
             }

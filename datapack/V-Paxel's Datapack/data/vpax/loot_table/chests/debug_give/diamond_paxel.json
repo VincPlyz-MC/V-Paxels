@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_hoe",
+          "name": "minecraft:diamond_pickaxe",
           "modifier": {
             "type": "minecraft:set_components",
             "components": {
@@ -39,8 +39,7 @@
               "minecraft:item_name": "Diamond Paxel",
               "minecraft:custom_data": {
                 "paxel": 1,
-                "diamond_paxel": 1,
-                "diamond_paxel_type": "hoe"
+                "diamond_paxel": 1
               },
               "minecraft:block_transformer": "vpax:axe_shovel"
             }

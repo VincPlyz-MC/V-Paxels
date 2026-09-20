@@ -14,7 +14,7 @@
     "S": "minecraft:stick"
   },
   "result": {
-    "id": "minecraft:copper_hoe",
+    "id": "minecraft:copper_pickaxe",
     "components": {
       "minecraft:item_model": "vpax:copper_paxel",
       "minecraft:tool": {
@@ -47,8 +47,7 @@
       "minecraft:item_name": "Copper Paxel",
       "minecraft:custom_data": {
         "paxel": true,
-        "copper_paxel": true,
-        "copper_paxel_type": "hoe"
+        "copper_paxel": true
       }
     }
   }

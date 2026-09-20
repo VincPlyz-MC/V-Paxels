@@ -11,7 +11,7 @@
             "predicate": {
               "minecraft:equipment": {
                 "mainhand": {
-                  "items": "#minecraft:hoes"
+                  "items": "#minecraft:pickaxes"
                 }
               },
               "minecraft:periodic_tick": 10

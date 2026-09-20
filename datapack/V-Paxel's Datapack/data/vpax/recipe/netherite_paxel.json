@@ -14,7 +14,7 @@
     "S": "minecraft:stick"
   },
   "result": {
-    "id": "minecraft:netherite_hoe",
+    "id": "minecraft:netherite_pickaxe",
     "components": {
       "minecraft:item_model": "vpax:nrite_paxel",
       "minecraft:tool": {
@@ -47,8 +47,7 @@
       "minecraft:item_name": "Netherite Paxel",
       "minecraft:custom_data": {
         "paxel": true,
-        "netherite_paxel": true,
-        "netherite_paxel_type": "hoe"
+        "netherite_paxel": true
       }
     }
   }

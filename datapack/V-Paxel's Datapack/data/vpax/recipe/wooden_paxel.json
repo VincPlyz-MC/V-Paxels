@@ -14,7 +14,7 @@
     "S": "minecraft:stick"
   },
   "result": {
-    "id": "minecraft:wooden_hoe",
+    "id": "minecraft:wooden_pickaxe",
     "components": {
       "minecraft:item_model": "vpax:wooden_paxel",
       "minecraft:tool": {
@@ -47,8 +47,7 @@
       "minecraft:item_name": "Wooden Paxel",
       "minecraft:custom_data": {
         "paxel": true,
-        "wooden_paxel": true,
-        "wooden_paxel_type": "hoe"
+        "wooden_paxel": true
       }
     }
   }

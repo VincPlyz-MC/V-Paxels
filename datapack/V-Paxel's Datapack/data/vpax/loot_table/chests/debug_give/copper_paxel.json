@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_hoe",
+          "name": "minecraft:copper_pickaxe",
           "modifier": {
             "type": "minecraft:set_components",
             "components": {
@@ -39,8 +39,7 @@
               "minecraft:item_name": "Copper Paxel",
               "minecraft:custom_data": {
                 "paxel": 1,
-                "copper_paxel": 1,
-                "copper_paxel_type": "hoe"
+                "copper_paxel": 1
               },
               "minecraft:block_transformer": "vpax:axe_shovel"
             }

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_hoe",
+          "name": "minecraft:wooden_pickaxe",
           "modifier": {
             "type": "minecraft:set_components",
             "components": {
@@ -39,8 +39,7 @@
               "minecraft:item_name": "Wooden Paxel",
               "minecraft:custom_data": {
                 "paxel": 1,
-                "wooden_paxel": 1,
-                "wooden_paxel_type": "hoe"
+                "wooden_paxel": 1
               },
               "minecraft:block_transformer": "vpax:axe_shovel"
             }

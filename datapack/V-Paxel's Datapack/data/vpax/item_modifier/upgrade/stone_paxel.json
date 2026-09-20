@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:stone_pickaxe"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "vpax:stone_paxel",
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/pickaxe",
+              "speed": 4,
+              "correct_for_drops": true
+            },
+            {
+              "blocks": "#minecraft:mineable/shovel",
+              "speed": 4,
+              "correct_for_drops": false
+            },
+            {
+              "blocks": "#minecraft:mineable/axe",
+              "speed": 4,
+              "correct_for_drops": false
+            },
+            {
+              "blocks": "#minecraft:mineable/hoe",
+              "speed": 4,
+              "correct_for_drops": false
+            }
+          ]
+        },
+        "minecraft:lore": [],
+        "!minecraft:consumable": {},
+        "minecraft:max_damage": 260,
+        "minecraft:tooltip_style": "vpax:paxel/stone",
+        "minecraft:item_name": "Stone Paxel",
+        "minecraft:custom_data": {
+          "paxel": 1,
+          "new_stone_paxel": 1
+        },
+        "minecraft:block_transformer": "vpax:axe_shovel"
+      }
+    }
+  ]
+}

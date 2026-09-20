@@ -14,7 +14,7 @@
     "S": "minecraft:stick"
   },
   "result": {
-    "id": "minecraft:iron_hoe",
+    "id": "minecraft:iron_pickaxe",
     "components": {
       "minecraft:item_model": "vpax:iron_paxel",
       "minecraft:tool": {
@@ -47,8 +47,7 @@
       "minecraft:item_name": "Iron Paxel",
       "minecraft:custom_data": {
         "paxel": true,
-        "iron_paxel": true,
-        "iron_paxel_type": "hoe"
+        "iron_paxel": true
       }
     }
   }

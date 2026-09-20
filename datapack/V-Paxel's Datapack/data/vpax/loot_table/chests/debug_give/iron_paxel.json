@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_hoe",
+          "name": "minecraft:iron_pickaxe",
           "modifier": {
             "type": "minecraft:set_components",
             "components": {
@@ -39,8 +39,7 @@
               "minecraft:item_name": "Iron Paxel",
               "minecraft:custom_data": {
                 "paxel": 1,
-                "iron_paxel": 1,
-                "iron_paxel_type": "hoe"
+                "iron_paxel": 1
               },
               "minecraft:block_transformer": "vpax:axe_shovel"
             }

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_hoe",
+          "name": "minecraft:stone_pickaxe",
           "modifier": {
             "type": "minecraft:set_components",
             "components": {
@@ -39,8 +39,7 @@
               "minecraft:item_name": "Stone Paxel",
               "minecraft:custom_data": {
                 "paxel": 1,
-                "stone_paxel": 1,
-                "stone_paxel_type": "hoe"
+                "stone_paxel": 1
               },
               "minecraft:block_transformer": "vpax:axe_shovel"
             }

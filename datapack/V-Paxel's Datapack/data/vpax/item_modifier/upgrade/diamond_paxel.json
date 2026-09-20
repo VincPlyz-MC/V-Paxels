@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:diamond_pickaxe"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "vpax:dia_paxel",
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/pickaxe",
+              "speed": 8,
+              "correct_for_drops": true
+            },
+            {
+              "blocks": "#minecraft:mineable/shovel",
+              "speed": 8,
+              "correct_for_drops": false
+            },
+            {
+              "blocks": "#minecraft:mineable/axe",
+              "speed": 8,
+              "correct_for_drops": false
+            },
+            {
+              "blocks": "#minecraft:mineable/hoe",
+              "speed": 8,
+              "correct_for_drops": false
+            }
+          ]
+        },
+        "minecraft:lore": [],
+        "!minecraft:consumable": {},
+        "minecraft:max_damage": 3000,
+        "minecraft:tooltip_style": "vpax:paxel/dia",
+        "minecraft:item_name": "Diamond Paxel",
+        "minecraft:custom_data": {
+          "paxel": 1,
+          "new_diamond_paxel": 1
+        },
+        "minecraft:block_transformer": "vpax:axe_shovel"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "vpax:iron_paxel",
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/pickaxe",
+              "speed": 8,
+              "correct_for_drops": true
+            },
+            {
+              "blocks": "#minecraft:mineable/shovel",
+              "speed": 8,
+              "correct_for_drops": false
+            },
+            {
+              "blocks": "#minecraft:mineable/axe",
+              "speed": 8,
+              "correct_for_drops": false
+            },
+            {
+              "blocks": "#minecraft:mineable/hoe",
+              "speed": 8,
+              "correct_for_drops": false
+            }
+          ]
+        },
+        "minecraft:lore": [],
+        "!minecraft:consumable": {},
+        "minecraft:max_damage": 500,
+        "minecraft:tooltip_style": "vpax:paxel/iron",
+        "minecraft:item_name": "Iron Paxel",
+        "minecraft:custom_data": {
+          "paxel": 1,
+          "new_iron_paxel": 1
+        },
+        "minecraft:block_transformer": "vpax:axe_shovel"
+      }
+    }
+  ]
+}

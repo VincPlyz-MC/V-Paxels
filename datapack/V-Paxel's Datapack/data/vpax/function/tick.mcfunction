@@ -1,0 +1,1 @@
+execute if score @p paxel_upgrade matches 1 run function vpax:upgrade/paxel_upgrade

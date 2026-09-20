@@ -14,7 +14,7 @@
     "S": "minecraft:stick"
   },
   "result": {
-    "id": "minecraft:stone_hoe",
+    "id": "minecraft:stone_pickaxe",
     "components": {
       "minecraft:item_model": "vpax:stone_paxel",
       "minecraft:tool": {
@@ -47,8 +47,7 @@
       "minecraft:item_name": "Stone Paxel",
       "minecraft:custom_data": {
         "paxel": true,
-        "stone_paxel": true,
-        "stone_paxel_type": "hoe"
+        "stone_paxel": true
       }
     }
   }
