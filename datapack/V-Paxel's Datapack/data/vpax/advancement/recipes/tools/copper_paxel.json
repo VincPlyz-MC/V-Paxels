@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "vpax:copper_paxel"
+        "recipes": "vpax:copper_paxel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

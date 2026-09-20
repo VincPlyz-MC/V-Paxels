@@ -6,27 +6,25 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:poisonous_potato",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": "Charm of Mining Reach I",
-                "tooltip_style": "vpax:custom",
-                "rarity": "uncommon",
-                "item_model": "vpax:mining_charm_1",
-                "minecraft:attribute_modifiers": [
-                  {
-                    "type": "minecraft:block_interaction_range",
-                    "id": "34wf6345wefgw246",
-                    "amount": 1,
-                    "operation": "add_value",
-                    "slot": "offhand"
-                  }
-                ],
-                "!minecraft:consumable": {}
-              }
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_name": "Charm of Mining Reach I",
+              "tooltip_style": "vpax:custom",
+              "rarity": "uncommon",
+              "item_model": "vpax:mining_charm_1",
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "minecraft:block_interaction_range",
+                  "id": "34wf6345wefgw246",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "!minecraft:consumable": {}
             }
-          ]
+          }
         }
       ]
     }

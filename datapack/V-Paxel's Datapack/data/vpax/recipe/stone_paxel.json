@@ -16,7 +16,7 @@
   "result": {
     "id": "minecraft:stone_hoe",
     "components": {
-      "minecraft:item_model": "vpax:stone_paxel_h",
+      "minecraft:item_model": "vpax:stone_paxel",
       "minecraft:tool": {
         "rules": [
           {
@@ -41,34 +41,15 @@
           }
         ]
       },
+      "minecraft:block_transformer": "vpax:axe_shovel",
       "minecraft:max_damage": 260,
-      "minecraft:consumable": {
-        "consume_seconds": 2147483647
-      },
       "minecraft:tooltip_style": "vpax:paxel/stone",
       "minecraft:item_name": "Stone Paxel",
       "minecraft:custom_data": {
         "paxel": true,
         "stone_paxel": true,
         "stone_paxel_type": "hoe"
-      },
-      "minecraft:lore": [
-        {
-          "text": " "
-        },
-        {
-          "text": "-> Tilling",
-          "color": "#07ca52"
-        },
-        {
-          "text": "- Pathing",
-          "color": "#bf0808"
-        },
-        {
-          "text": "- Axing",
-          "color": "#bf0808"
-        }
-      ]
+      }
     }
   }
 }

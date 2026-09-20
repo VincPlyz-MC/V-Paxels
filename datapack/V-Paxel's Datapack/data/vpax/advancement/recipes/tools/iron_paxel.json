@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "vpax:iron_paxel"
+        "recipes": "vpax:iron_paxel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

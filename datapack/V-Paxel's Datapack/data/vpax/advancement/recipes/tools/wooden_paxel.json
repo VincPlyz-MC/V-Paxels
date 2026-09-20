@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "vpax:wooden_paxel"
+        "recipes": "vpax:wooden_paxel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -40,12 +40,10 @@
           "value": "minecraft:chests/trial_chambers/reward_unique"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.25
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.25
+      }
     },
     {
       "rolls": 1,
@@ -55,12 +53,10 @@
           "value": "vpax:chests/trial_chambers/vpax_charm_1"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.05
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.05
+      }
     },
     {
       "rolls": 1,
@@ -70,12 +66,10 @@
           "value": "vpax:chests/trial_chambers/vpax_charm_2"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.03
-        }
-      ]
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.03
+      }
     }
   ],
   "random_sequence": "minecraft:chests/trial_chambers/reward"

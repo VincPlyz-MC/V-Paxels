@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "vpax:netherite_paxel"
+        "recipes": "vpax:netherite_paxel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
